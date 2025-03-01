@@ -26,12 +26,19 @@ for(let i = 0; i<nums.length;i++)
     if(nums[i]==3)
     {
         found = true;
-        console.log("We have found 3 at index " + i);
+        // console.log("We have found 3 at index " + i);
         break;
     }
 }
 
 if(!found)
 {
-    console.log("We didn't have a 3");
+    // console.log("We didn't have a 3");
 }
+
+function score(points,name)
+{
+    return name + " scored " + points + " points today."
+}
+
+console.log(score("56","curry"));
