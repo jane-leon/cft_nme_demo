@@ -26,6 +26,12 @@ if(!found){
     console.log("We didn't have a 6")
 }
 
+function score(points, name){
+    return name + "scored" + points + "today."
+}
+
+console.log(score("56", "curry"))
+
 
 
 
