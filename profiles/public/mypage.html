@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Chase Bank Summary</title>
+   <style>
+       body {
+           font-family: Arial, sans-serif;
+           margin: 0;
+           padding: 0;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           text-align: center;
+       }
+
+
+       #website-header {
+           display: flex;
+           text-align: center;
+           justify-content: center;
+           padding: 20px;
+           flex-wrap: wrap;
+           gap: 20px;
+           font-size: 25px;
+       }
+
+
+       #chase-logo {
+           max-width: 250px;
+           height: auto;
+           display: block;
+           object-fit: contain;
+       }
+       .ceo-container {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           margin-top: 30px;
+       }
+       #ceo {
+           width: 200px;
+           cursor: pointer;
+           height: auto;
+       }
+       #cc-button {
+           background-color: #007bff;
+           color: white;
+           border: black;
+           padding: 10px 20px;
+           font-size: 40px;
+           cursor: pointer;
+           border-radius: 5px;
+           display: inline-block;
+       }
+       #description-paragraph {
+           font-size: 25px;
+           max-width: 80%;
+           text-align: center;
+           margin: 20px auto;
+       }
+       #ceo-des {
+           font-size: 40px;
+       }
+   </style>
+</head>
+<body>
+   <div id="website-header">
+       <h1>Welcome to</h1>
+       <img id="chase-logo" src="chase-logo2.png" alt="Chase-bank-logo">
+   </div>
+   <p id="description-paragraph">Chase Bank, officially known as JPMorgan Chase Bank, N.A., is one of the largest financial institutions in the United States.
+       A subsidiary of JPMorgan Chase & Co., it offers a wide range of banking services, including checking and savings accounts,
+       credit cards, mortgages, auto loans, and investment products. With thousands of branches and ATMs nationwide, Chase serves
+       millions of customers, from individuals to businesses. Known for its digital banking innovations, robust rewards programs,
+        and customer-friendly mobile app, Chase continues to be a dominant player in the banking industry.</p>
+   <a href="https://creditcards.chase.com/" target="_blank"><button id="cc-button">Credit Card Offers</button></a>
+
+
+   <div class="ceo-container">
+       <a href="https://www.linkedin.com/in/jamiedimon/" target="_blank">
+           <img id="ceo" src="chase_ceo.jpg" alt="Chase CEO">
+       </a>
+       <p id="ceo-des">CEO: Jamie Dimon</p>
+   </div>
+  
+</body>
+</html>
